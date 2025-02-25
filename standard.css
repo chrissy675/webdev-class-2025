@@ -1,0 +1,8 @@
+body {
+    background: url(/images/kitten.jpg);
+    background-size:cover;
+    height: 100%;
+    }
+#kitten {
+    font-size:8rem;
+}
