@@ -1,0 +1,30 @@
+h1 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+
+  }
+  table, th, td {
+    border:5px solid rgb(102, 91, 91);
+    border-collapse: collapse;
+    border-radius: 20px;
+    th, td {
+        background-color: #4d5353;
+      }
+    th {
+        color: rgb(241, 239, 236);
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #ebc2ce;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 5px;
+        padding-right: 1px;
+    }  
+    td {
+        color: rgb(241, 239, 236);
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #ebc2ce;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 40px;
+        padding-right: 1px;
