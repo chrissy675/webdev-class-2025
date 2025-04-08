@@ -4,37 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="wine.css">
+    <link rel="stylesheet" href="standard.css">
 </head>
 <body>
-    <h1>Annual Anguillar Family Wine Festival</h1>
-    <table style="width:40%">
-        <th colspan="2">Wine Festival Schedule</th>
-        <tr>
-          <th>Time</th>
-          <th>Event</th>
-         </tr>
-        <tr>
-          <td>12:00 PM</td>
-          <td>WELCOME RECEPTION</td>
-        </tr>
-        <tr>
-            <td>01:00 PM</td>
-            <td>STORYTELLING & TASING</td>
-          </tr>
-          <tr>
-            <td>02:00 PM</td>
-            <td>WINE LUNCHEON</td>
-          </tr>
-          <tr>
-            <td>03:00 PM</td>
-            <td>ANGUILLAR FAMILY WINES</td>
-          </tr>
-          <tr>
-            <td>04:00 PM</td>
-            <td>WINE & CHEESE TASTING</td>
-          </tr>
-    </table>
-
-</body>
+    <section>
+     <nav id="nav">
+        <a class="highlight" href="#home">Home</a>
+        <a class="highlight" href="#services">Services</a>
+        <a class="highlight" href="#contact">Contact</a>
+     </nav>
+     <div id="me"><p id="demo" style="display:none"><em><i>Pages Created By CLMounsey</em></i></p></div>
+     <div id="button1">
+     <button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
+     </div>
+     <h1 class="horse">BELOVED BEAUTIES</h1>  
+    </section>
+    <div>
+      <section id="home">
+        <h2>Home</h2>
+        <div class="main">
+        <h3><i>History of Horses</i></h3>
+        <p class="intro">Humans and horses have coexisted for a very long time. Used for trade, travel, and combat, civilization have literally been built on the backs of horses. Today, they still serve many industries, whether in essential
+           labor or pure entertainment. However, there’s more to these equestrians than what meets the eye. Take a closer look at one of history’s most domesticated animals with these horse facts.
+        </p>
+    </div>
+        <img id=horsepic1 src="./images/multihorses.jpg" alt="Three horses in a field">
+      </section>
+      <section>
+        <div class="main">
+        <h4>Five Facts About Horses</h4>
+        <ul>
+            <li>There are over 300 breeds of horses around the world</li>
+            <li>Horses can live up to 30 years</li>
+            <li>The avearge horse grows from 14 to 18 hands big</li>
+            <li>Horse pregnancy typically last between 320 and 370 days</li>
+            <li>The USA is the country with the most horses at 10.2 million individuals</li>
+        </ul>
+        <p><b><em>To see some different horse types and learn more, click on the link. <a class="visited" href="horsetypes.html">Horse Breeds</a></b></em></p>
+        </div>
+      </section>
+    </div>
+    <div>
+      <section id="services">
+        <h2>Services</h2>
+        <div class="main">
+        <p>
+        Have you ever wanted to learn to ride? Sign-up for a mini or extended lesson. During this time you will
+        learn how to groom, feed and care for horses; <strong>most important safety of riding!</strong> Below lists currrent sessions 
+        available.
+        </div> 
+        </p>
+        <div id="session">
+        <table style="width:60%">
+            <th colspan="2">Horse Riding Sessions</th>
+            <tr>
+              <th>Price</th>
+              <th>Session</th>
+             </tr>
+            <tr>
+              <td>$40</td>
+              <td>30 minutes</td>
+            </tr>
+            <tr>
+                <td>$60</td>
+                <td>60 minutes</td>
+              </tr>
+              <tr>
+                <td>$80</td>
+                <td>90 minutes</td>
+              </tr>
+         </table>
+         </div>
+      </section>
+    </div> 
+    <div>
+     <section id="contact">
+        <h2>Contact</h2>
+        <div class="main">
+        <p>
+         For more information call 757-000-0000 or complete the <a href="form.html">Interest Form </a>. Only takes a minute!  
+        </p>
+        </div>
+      </section>
+    </div>
+    <div>
+     <footer id="footer"> Source:https://facts.net/nature/animals/horse-facts/#:~:text=01Horses%20first%20evolved%20from,
+        reach%20the%20age%20of%203
+     </footer>
+    </div>
+  </body>
 </html>
